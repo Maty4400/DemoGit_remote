@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4C5DB92D2A0A6C9000B03658 /* DemoGitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DB92C2A0A6C9000B03658 /* DemoGitApp.swift */; };
-		4C5DB92F2A0A6C9000B03658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DB92E2A0A6C9000B03658 /* ContentView.swift */; };
+		4C5DB92F2A0A6C9000B03658 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DB92E2A0A6C9000B03658 /* MainView.swift */; };
 		4C5DB9312A0A6C9100B03658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DB9302A0A6C9100B03658 /* Assets.xcassets */; };
 		4C5DB9352A0A6C9100B03658 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DB9342A0A6C9100B03658 /* Preview Assets.xcassets */; };
+		4C5DB93C2A0A763F00B03658 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DB93B2A0A763F00B03658 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C5DB9292A0A6C9000B03658 /* DemoGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5DB92C2A0A6C9000B03658 /* DemoGitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGitApp.swift; sourceTree = "<group>"; };
-		4C5DB92E2A0A6C9000B03658 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C5DB92E2A0A6C9000B03658 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4C5DB9302A0A6C9100B03658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C5DB9322A0A6C9100B03658 /* DemoGit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoGit.entitlements; sourceTree = "<group>"; };
 		4C5DB9342A0A6C9100B03658 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C5DB93B2A0A763F00B03658 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				4C5DB92C2A0A6C9000B03658 /* DemoGitApp.swift */,
-				4C5DB92E2A0A6C9000B03658 /* ContentView.swift */,
+				4C5DB93B2A0A763F00B03658 /* SecondView.swift */,
+				4C5DB92E2A0A6C9000B03658 /* MainView.swift */,
 				4C5DB9302A0A6C9100B03658 /* Assets.xcassets */,
 				4C5DB9322A0A6C9100B03658 /* DemoGit.entitlements */,
 				4C5DB9332A0A6C9100B03658 /* Preview Content */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C5DB92F2A0A6C9000B03658 /* ContentView.swift in Sources */,
+				4C5DB93C2A0A763F00B03658 /* SecondView.swift in Sources */,
+				4C5DB92F2A0A6C9000B03658 /* MainView.swift in Sources */,
 				4C5DB92D2A0A6C9000B03658 /* DemoGitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
